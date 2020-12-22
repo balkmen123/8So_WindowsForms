@@ -6,41 +6,42 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace _8So_WindowsForms
 {
+
     public partial class fm8So : Form
     {
         int[,] MaTran;
         C_8So TamSo;
         Stack<int[,]> stk;
-        Button[,] Mangbt;
+        PictureBox[,] Mangbt;
         int n = 3;
         int SoLanDiChuyen = 0;
         public fm8So()
         {
             InitializeComponent();
+            InitializeUI();
             MaTran = new int[n, n];
             TamSo = new C_8So();
 
             stk = new Stack<int[,]>();
-            Mangbt = new Button[n, n];
+            Mangbt = new PictureBox[n, n];
         }
 
-        void load8So(int[,] a, Button[,] b)
+        void load8So(int[,] a, PictureBox[,] b)
         {
             for (int i = 0; i < a.GetLength(0); i++)
                 for (int j = 0; j < a.GetLength(0); j++)
                 {
                     if (a[i, j] == 0)
                     {
-                        b[i, j].Text = "";
-                        b[i, j].BackColor = Color.MediumSeaGreen;
+                        b[i, j].Image = Image.FromFile($@"C:\Users\Admin\Pictures\Saved Pictures\0.jpg");
                     }
                     else
                     {
-                        b[i, j].Text = a[i, j].ToString();
-                        b[i, j].BackColor = Color.White;
+                        b[i, j].Image = Image.FromFile($@"C:\Users\Admin\Pictures\Saved Pictures\{a[i, j]}.jpg");
                     }
                 }
         }
@@ -61,6 +62,9 @@ namespace _8So_WindowsForms
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            ComboBox cbbTocDo = new ComboBox();
+            cbbTocDo.Size = new Size(216, 50);
+            this.Controls.Add(cbbTocDo);
 
             Mangbt[0, 0] = btn1;
             Mangbt[0, 1] = btn2;
@@ -128,7 +132,20 @@ namespace _8So_WindowsForms
 
             thongTim.Show();
         }
+        public static class BorderRadius
+        {
+            [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+            private static extern IntPtr CreateRoundRectRgn(int xTopLeft, int yTopLeft, int xBotRight, int yBotRight, int nWidthEllipse, int nHeightEllipse);
 
+            public static void SetBorderRadius(Control obj, int width, int height)
+            {
+                obj.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, obj.Width, obj.Height, width, height));
+            }
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
