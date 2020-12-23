@@ -30,6 +30,7 @@ namespace _8So_WindowsForms
             /// </summary>
             private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -37,13 +38,14 @@ namespace _8So_WindowsForms
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.btnBauDau = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panelRadius1 = new _8So_WindowsForms.Resources.Class.PanelRadius();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnBauDau = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panelRadius1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
@@ -51,11 +53,11 @@ namespace _8So_WindowsForms
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Quicksand", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(5)))), ((int)(((byte)(5)))));
-            this.label2.Location = new System.Drawing.Point(201, 92);
+            this.label2.Location = new System.Drawing.Point(212, 92);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 31);
+            this.label2.Size = new System.Drawing.Size(79, 31);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Thực hiện :\r\n";
+            this.label2.Text = "Nhóm:\r\n";
             // 
             // label3
             // 
@@ -123,24 +125,6 @@ namespace _8So_WindowsForms
             this.label8.TabIndex = 11;
             this.label8.Text = "18810310051";
             // 
-            // btnBauDau
-            // 
-            this.btnBauDau.BackColor = System.Drawing.Color.Transparent;
-            this.btnBauDau.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBauDau.FlatAppearance.BorderSize = 0;
-            this.btnBauDau.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gainsboro;
-            this.btnBauDau.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnBauDau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBauDau.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnBauDau.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnBauDau.Location = new System.Drawing.Point(1, 1);
-            this.btnBauDau.Name = "btnBauDau";
-            this.btnBauDau.Size = new System.Drawing.Size(180, 50);
-            this.btnBauDau.TabIndex = 19;
-            this.btnBauDau.Text = "Go";
-            this.btnBauDau.UseVisualStyleBackColor = false;
-            this.btnBauDau.Click += new System.EventHandler(this.btnBauDau_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -159,9 +143,9 @@ namespace _8So_WindowsForms
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(5)))), ((int)(((byte)(5)))));
             this.label9.Location = new System.Drawing.Point(201, 50);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(483, 31);
+            this.label9.Size = new System.Drawing.Size(496, 31);
             this.label9.TabIndex = 133;
-            this.label9.Text = "Giáo viên đứng lớp : Cô Nguyễn Thị Thanh Tân.";
+            this.label9.Text = "Giáo viên hướng dẫn: Cô Nguyễn Thị Thanh Tân.";
             // 
             // pictureBox1
             // 
@@ -173,18 +157,45 @@ namespace _8So_WindowsForms
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
-            // panelRadius1
+            // panel1
             // 
-            this.panelRadius1.BackColor = System.Drawing.Color.White;
-            this.panelRadius1.Controls.Add(this.btnBauDau);
-            this.panelRadius1.Location = new System.Drawing.Point(660, 194);
-            this.panelRadius1.Name = "panelRadius1";
-            this.panelRadius1.Radius = 5;
-            this.panelRadius1.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(104)))), ((int)(((byte)(68)))));
-            this.panelRadius1.rSize = new System.Drawing.Size(181, 51);
-            this.panelRadius1.Size = new System.Drawing.Size(182, 52);
-            this.panelRadius1.TabIndex = 134;
-            this.panelRadius1.TopLeft = new System.Drawing.Point(0, 0);
+            this.panel1.BackColor = System.Drawing.Color.Silver;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 244);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(872, 10);
+            this.panel1.TabIndex = 135;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(104)))), ((int)(((byte)(68)))));
+            this.panel2.Location = new System.Drawing.Point(-1, 244);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(70, 10);
+            this.panel2.TabIndex = 136;
+            // 
+            // btnBauDau
+            // 
+            this.btnBauDau.BackColor = System.Drawing.Color.Transparent;
+            this.btnBauDau.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBauDau.FlatAppearance.BorderSize = 0;
+            this.btnBauDau.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gainsboro;
+            this.btnBauDau.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnBauDau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBauDau.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnBauDau.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnBauDau.Location = new System.Drawing.Point(1, 1);
+            this.btnBauDau.Name = "btnBauDau";
+            this.btnBauDau.Size = new System.Drawing.Size(180, 50);
+            this.btnBauDau.TabIndex = 19;
+            this.btnBauDau.Text = "Go";
+            this.btnBauDau.UseVisualStyleBackColor = false;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 15;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // fmThongTin
             // 
@@ -192,7 +203,8 @@ namespace _8So_WindowsForms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(872, 254);
-            this.Controls.Add(this.panelRadius1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label1);
@@ -210,7 +222,6 @@ namespace _8So_WindowsForms
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông tin";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panelRadius1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -228,6 +239,8 @@ namespace _8So_WindowsForms
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Resources.Class.PanelRadius panelRadius1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Timer timer1;
     }
 }

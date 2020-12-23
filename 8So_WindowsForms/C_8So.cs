@@ -99,6 +99,8 @@ namespace _8So_WindowsForms
             stkKetQua = truyVetKetQua(Close);
 
             return stkKetQua;
+            fmThongTin fo2 = new fmThongTin();
+            fo2.ShowDialog();
         }
 
         //truy vét kết quả đường đi trong tập Close
@@ -540,11 +542,16 @@ namespace _8So_WindowsForms
             {
                 if(haiMaTranBangNhau(a,Close[i]))
                 {
+                    
                     return true;
+                    
                 }
             }
 
+
             return false;
+
+
         }
     }
 }

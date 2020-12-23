@@ -64,6 +64,19 @@
     <Compile Include="fmThongTin.Designer.cs">
       <DependentUpon>fmThongTin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f\Size.cs" />
+    <Compile Include="thongbao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thongbao.Designer.cs">
+      <DependentUpon>thongbao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Class\PanelRadius.cs">
@@ -75,6 +88,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fmThongTin.resx">
       <DependentUpon>fmThongTin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thongbao.resx">
+      <DependentUpon>thongbao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -126,12 +145,50 @@
   <ItemGroup>
     <None Include="Resources\0.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\icons8-memories-96.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Untitled.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Untitled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-memories-96 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-start-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-start-52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-start-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stop-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clouds-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank-cloud-paper-note-shadow-vector-illustration-speech-bubble-eps-88653986.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-xbox-x-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-xbox-x-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-present-to-all-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-xbox-x-962.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

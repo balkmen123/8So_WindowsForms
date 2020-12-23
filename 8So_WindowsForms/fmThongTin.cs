@@ -14,34 +14,23 @@ namespace _8So_WindowsForms
         public fmThongTin()
         {
             InitializeComponent();
+
+        }
            
-        }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+ 
+
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.facebook.com/PhongHkphone");
-        }
-
-
-        public static class BorderRadius
-        {
-            [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
-            private static extern IntPtr CreateRoundRectRgn(int xTopLeft, int yTopLeft, int xBotRight, int yBotRight, int nWidthEllipse, int nHeightEllipse);
-
-            public static void SetBorderRadius(Control obj, int width, int height)
+            panel2.Width += 3;
+            if(panel2.Width >= 800)
             {
-                obj.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, obj.Width, obj.Height, width, height));
+                timer1.Stop(); 
+                fm8So form2 = new fm8So();
+                form2.Show();
+                this.Hide();
+                
             }
         }
-
-        private void btnBauDau_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            fm8So form2 = new fm8So();
-            form2.ShowDialog();
-            this.Close();
-        }
-
-
     }
 }

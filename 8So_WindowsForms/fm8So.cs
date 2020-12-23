@@ -22,13 +22,20 @@ namespace _8So_WindowsForms
         public fm8So()
         {
             InitializeComponent();
-     
+
+            this.BackColor = Color.LimeGreen;
+            this.TransparencyKey = Color.LimeGreen;
+
             MaTran = new int[n, n];
             TamSo = new C_8So();
 
             stk = new Stack<int[,]>();
             Mangbt = new PictureBox[n, n];
         }
+
+
+
+
 
         void load8So(int[,] a, PictureBox[,] b)
         {
@@ -53,7 +60,7 @@ namespace _8So_WindowsForms
 
             stk = TamSo.timKetQua(MaTran, n);
             stk.Pop();
-            cbbTocDo.Text = cbbTocDo.Items[0].ToString();
+
             lbSoLanDiChuyen.Text = "0";
             SoLanDiChuyen = 0;
             btnBauDau.Enabled = false;
@@ -83,15 +90,9 @@ namespace _8So_WindowsForms
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            switch(cbbTocDo.Text)
-            {
-                case "1": timer1.Interval = 2000; break;
-                case "2": timer1.Interval = 1500; break;
-                case "3": timer1.Interval = 1000; break;
-                case "4": timer1.Interval = 500; break;
-                case "5": timer1.Interval = 250; break;
-            }
-                
+ 
+                timer1.Interval = 500; 
+     
             int[,] Temp = new int[n, n];
 
             if (stk.Count != 0)
@@ -126,12 +127,7 @@ namespace _8So_WindowsForms
             btnBauDau.Enabled = true;
         }
 
-        private void chơiMớiToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            fmThongTin thongTim = new fmThongTin();
 
-            thongTim.Show();
-        }
         public static class BorderRadius
         {
             [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
@@ -142,12 +138,25 @@ namespace _8So_WindowsForms
                 obj.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, obj.Width, obj.Height, width, height));
             }
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
 
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 frm = new Form1() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            this.pConterner.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            thongbao tb = new thongbao();
+            tb.Show();
+        }
     }
 }
