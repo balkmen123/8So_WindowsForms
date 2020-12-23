@@ -14,7 +14,7 @@ namespace _8So_WindowsForms
         public fmThongTin()
         {
             InitializeComponent();
-            InitializeUI();
+           
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

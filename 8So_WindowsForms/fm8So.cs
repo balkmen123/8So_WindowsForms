@@ -22,7 +22,7 @@ namespace _8So_WindowsForms
         public fm8So()
         {
             InitializeComponent();
-            InitializeUI();
+     
             MaTran = new int[n, n];
             TamSo = new C_8So();
 
@@ -147,5 +147,7 @@ namespace _8So_WindowsForms
         {
             Application.Exit();
         }
+
+
     }
 }

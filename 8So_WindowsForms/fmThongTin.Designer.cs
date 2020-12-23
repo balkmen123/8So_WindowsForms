@@ -20,18 +20,7 @@ namespace _8So_WindowsForms
             }
             base.Dispose(disposing);
         }
-        private void InitializeUI()
-        {
-            BorderRadius.SetBorderRadius(btnBauDau, 5, 5);
-            pnDrop14.BackColor = Color.FromArgb(244, 104, 68);
-            BorderRadius.SetBorderRadius(pnDrop14, 10, 10);
-            pnDrop13.BackColor = Color.FromArgb(244, 104, 68);
-            BorderRadius.SetBorderRadius(pnDrop13, 10, 10);
-            pnDrop12.BackColor = Color.FromArgb(244, 104, 68);
-            BorderRadius.SetBorderRadius(pnDrop12, 10, 10);
-            pnDrop11.BackColor = Color.FromArgb(244, 104, 68);
-            BorderRadius.SetBorderRadius(pnDrop11, 10, 10);
-        }
+
 
             #region Windows Form Designer generated code
 
@@ -48,18 +37,13 @@ namespace _8So_WindowsForms
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.pnDrop12 = new System.Windows.Forms.Panel();
-            this.pnDrop13 = new System.Windows.Forms.Panel();
-            this.pnDrop14 = new System.Windows.Forms.Panel();
             this.btnBauDau = new System.Windows.Forms.Button();
-            this.pnDrop11 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pnDrop12.SuspendLayout();
-            this.pnDrop13.SuspendLayout();
-            this.pnDrop14.SuspendLayout();
+            this.panelRadius1 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelRadius1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
@@ -139,34 +123,13 @@ namespace _8So_WindowsForms
             this.label8.TabIndex = 11;
             this.label8.Text = "18810310051";
             // 
-            // pnDrop12
-            // 
-            this.pnDrop12.Controls.Add(this.pnDrop13);
-            this.pnDrop12.Location = new System.Drawing.Point(701, 175);
-            this.pnDrop12.Name = "pnDrop12";
-            this.pnDrop12.Size = new System.Drawing.Size(187, 56);
-            this.pnDrop12.TabIndex = 130;
-            // 
-            // pnDrop13
-            // 
-            this.pnDrop13.Controls.Add(this.pnDrop14);
-            this.pnDrop13.Location = new System.Drawing.Point(1, 1);
-            this.pnDrop13.Name = "pnDrop13";
-            this.pnDrop13.Size = new System.Drawing.Size(184, 54);
-            this.pnDrop13.TabIndex = 129;
-            // 
-            // pnDrop14
-            // 
-            this.pnDrop14.Controls.Add(this.btnBauDau);
-            this.pnDrop14.Location = new System.Drawing.Point(1, 1);
-            this.pnDrop14.Name = "pnDrop14";
-            this.pnDrop14.Size = new System.Drawing.Size(182, 52);
-            this.pnDrop14.TabIndex = 128;
-            // 
             // btnBauDau
             // 
-            this.btnBauDau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(104)))), ((int)(((byte)(68)))));
+            this.btnBauDau.BackColor = System.Drawing.Color.Transparent;
+            this.btnBauDau.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBauDau.FlatAppearance.BorderSize = 0;
+            this.btnBauDau.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gainsboro;
+            this.btnBauDau.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnBauDau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBauDau.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnBauDau.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -177,13 +140,6 @@ namespace _8So_WindowsForms
             this.btnBauDau.Text = "Go";
             this.btnBauDau.UseVisualStyleBackColor = false;
             this.btnBauDau.Click += new System.EventHandler(this.btnBauDau_Click);
-            // 
-            // pnDrop11
-            // 
-            this.pnDrop11.Location = new System.Drawing.Point(700, 174);
-            this.pnDrop11.Name = "pnDrop11";
-            this.pnDrop11.Size = new System.Drawing.Size(189, 58);
-            this.pnDrop11.TabIndex = 131;
             // 
             // label1
             // 
@@ -217,17 +173,29 @@ namespace _8So_WindowsForms
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
+            // panelRadius1
+            // 
+            this.panelRadius1.BackColor = System.Drawing.Color.White;
+            this.panelRadius1.Controls.Add(this.btnBauDau);
+            this.panelRadius1.Location = new System.Drawing.Point(660, 194);
+            this.panelRadius1.Name = "panelRadius1";
+            this.panelRadius1.Radius = 5;
+            this.panelRadius1.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(104)))), ((int)(((byte)(68)))));
+            this.panelRadius1.rSize = new System.Drawing.Size(181, 51);
+            this.panelRadius1.Size = new System.Drawing.Size(182, 52);
+            this.panelRadius1.TabIndex = 134;
+            this.panelRadius1.TopLeft = new System.Drawing.Point(0, 0);
+            // 
             // fmThongTin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(242)))), ((int)(((byte)(245)))));
-            this.ClientSize = new System.Drawing.Size(911, 236);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(872, 254);
+            this.Controls.Add(this.panelRadius1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pnDrop12);
-            this.Controls.Add(this.pnDrop11);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -241,10 +209,8 @@ namespace _8So_WindowsForms
             this.Name = "fmThongTin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông tin";
-            this.pnDrop12.ResumeLayout(false);
-            this.pnDrop13.ResumeLayout(false);
-            this.pnDrop14.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelRadius1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -258,13 +224,10 @@ namespace _8So_WindowsForms
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel pnDrop12;
-        private System.Windows.Forms.Panel pnDrop13;
-        private System.Windows.Forms.Panel pnDrop14;
         private System.Windows.Forms.Button btnBauDau;
-        private System.Windows.Forms.Panel pnDrop11;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Resources.Class.PanelRadius panelRadius1;
     }
 }

@@ -66,6 +66,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Class\PanelRadius.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\Class\GraphicsExtension.cs" />
     <EmbeddedResource Include="fm8So.resx">
       <DependentUpon>fm8So.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,9 +126,7 @@
   <ItemGroup>
     <None Include="Resources\0.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Class\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\Untitled.png" />
   </ItemGroup>
