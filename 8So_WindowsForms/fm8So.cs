@@ -110,15 +110,18 @@ namespace _8So_WindowsForms
                     {
                         if(Temp[i,j] == 0)
                         {
-                            string vitri_thaydoi = $"Bước{SoLanDiChuyen}:     hang: {i}        ||    cot{j}";
+                            string vitri_thaydoi = $"Bước{SoLanDiChuyen} :    {i}             {j}" ;
+
                             Label x = new Label();
                             x.Font= new Font("Segoe UI Semibold", 10, FontStyle.Bold);
                             x.Text = vitri_thaydoi;
+
                             x.ForeColor = Color.Black;
                             x.Dock = DockStyle.Top;
                             panel10.Controls.Add(x);
                             panel10.AutoScroll = true;
                            
+
                         }
 
                     }
@@ -175,12 +178,7 @@ namespace _8So_WindowsForms
 
 
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form1 frm = new Form1() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
-            this.pConterner.Controls.Add(frm);
-            frm.Show();
-        }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {

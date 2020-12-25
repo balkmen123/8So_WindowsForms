@@ -15,7 +15,7 @@ namespace _8So_WindowsForms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmThongTin());
+            Application.Run(new Loding());
         }
     }
 }

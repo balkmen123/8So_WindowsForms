@@ -166,7 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 622);
+            this.ClientSize = new System.Drawing.Size(676, 539);
             this.Controls.Add(this.panelRadius2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "thongbao";
