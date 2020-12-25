@@ -51,7 +51,7 @@
             this.panelRadius1.Controls.Add(this.panelRadius5);
             this.panelRadius1.Controls.Add(this.panelRadius4);
             this.panelRadius1.Controls.Add(this.panel1);
-            this.panelRadius1.Location = new System.Drawing.Point(1, 1);
+            this.panelRadius1.Location = new System.Drawing.Point(1, 3);
             this.panelRadius1.Name = "panelRadius1";
             this.panelRadius1.Radius = 0;
             this.panelRadius1.rColor = System.Drawing.Color.Empty;

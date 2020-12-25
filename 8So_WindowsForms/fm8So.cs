@@ -52,6 +52,11 @@ namespace _8So_WindowsForms
                     }
                 }
         }
+        private int[,] matran_goc = {
+                {1,2,3 },
+                {8,0,4 },
+                {7,6,5 }
+        };
         void khoiTao8So()
         {
             MaTran = TamSo.randomMaTran(n);
@@ -98,13 +103,37 @@ namespace _8So_WindowsForms
             if (stk.Count != 0)
             {
                 Temp = stk.Pop();
+                SoLanDiChuyen++;
+                for (int i =0; i< 3; i++)
+                {
+                    for(int j =0; j< 3; j++)
+                    {
+                        if(Temp[i,j] == 0)
+                        {
+                            string vitri_thaydoi = $"Bước{SoLanDiChuyen}:     hang: {i}        ||    cot{j}";
+                            Label x = new Label();
+                            x.Font= new Font("Segoe UI Semibold", 10, FontStyle.Bold);
+                            x.Text = vitri_thaydoi;
+                            x.ForeColor = Color.Black;
+                            x.Dock = DockStyle.Top;
+                            panel10.Controls.Add(x);
+                            panel10.AutoScroll = true;
+                           
+                        }
+
+                    }
+                }
                 load8So(Temp, Mangbt);
 
-                SoLanDiChuyen++;
+
                 lbSoLanDiChuyen.Text = SoLanDiChuyen.ToString();
+
             }
+            
             else
-                timer1.Enabled = false;
+                
+            timer1.Enabled = false;
+           
         }
 
         private void btBauDau_Click(object sender, EventArgs e)
@@ -157,6 +186,11 @@ namespace _8So_WindowsForms
         {
             thongbao tb = new thongbao();
             tb.Show();
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+
         }
     }
 }
