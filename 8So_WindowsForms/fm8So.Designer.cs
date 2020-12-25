@@ -37,6 +37,7 @@ namespace _8So_WindowsForms
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelRadius4 = new _8So_WindowsForms.Resources.Class.PanelRadius();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -45,48 +46,60 @@ namespace _8So_WindowsForms
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelRadius14 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius13 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius12 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius11 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius10 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius9 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius8 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius7 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius5 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius6 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panelRadius1 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius2 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panelRadius3 = new _8So_WindowsForms.Resources.Class.PanelRadius();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.pConterner = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
             this.btn5 = new System.Windows.Forms.PictureBox();
+            this.panelRadius13 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btn6 = new System.Windows.Forms.PictureBox();
+            this.panelRadius12 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btn7 = new System.Windows.Forms.PictureBox();
+            this.panelRadius11 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btn4 = new System.Windows.Forms.PictureBox();
+            this.panelRadius10 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btn0 = new System.Windows.Forms.PictureBox();
+            this.panelRadius9 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btn8 = new System.Windows.Forms.PictureBox();
+            this.panelRadius8 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btn3 = new System.Windows.Forms.PictureBox();
+            this.panelRadius7 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btn2 = new System.Windows.Forms.PictureBox();
+            this.panelRadius5 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btn1 = new System.Windows.Forms.PictureBox();
+            this.panelRadius6 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.label2 = new System.Windows.Forms.Label();
             this.lbSoLanDiChuyen = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelRadius1 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btnChoiMoi = new System.Windows.Forms.Button();
+            this.panelRadius2 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btnBauDau = new System.Windows.Forms.Button();
+            this.panelRadius3 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btnDung = new System.Windows.Forms.Button();
+            this.pConterner = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelRadius4.SuspendLayout();
+            this.panelRadius14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn5)).BeginInit();
+            this.panelRadius13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn6)).BeginInit();
+            this.panelRadius12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn7)).BeginInit();
+            this.panelRadius11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn4)).BeginInit();
+            this.panelRadius10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn0)).BeginInit();
+            this.panelRadius9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn8)).BeginInit();
+            this.panelRadius8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn3)).BeginInit();
+            this.panelRadius7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn2)).BeginInit();
+            this.panelRadius5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn1)).BeginInit();
+            this.panelRadius6.SuspendLayout();
+            this.panelRadius1.SuspendLayout();
+            this.panelRadius2.SuspendLayout();
+            this.panelRadius3.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -97,6 +110,7 @@ namespace _8So_WindowsForms
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.panel10);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.panelRadius4);
             this.panel1.Controls.Add(this.panel9);
@@ -117,11 +131,10 @@ namespace _8So_WindowsForms
             this.panel1.Controls.Add(this.panelRadius5);
             this.panel1.Controls.Add(this.panelRadius6);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.panelRadius1);
             this.panel1.Controls.Add(this.panelRadius2);
             this.panel1.Controls.Add(this.panelRadius3);
-            this.panel1.Location = new System.Drawing.Point(205, -1);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(683, 505);
             this.panel1.TabIndex = 12;
@@ -130,7 +143,7 @@ namespace _8So_WindowsForms
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::_8So_WindowsForms.Properties.Resources.icons8_xbox_x_962;
-            this.pictureBox1.Location = new System.Drawing.Point(653, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(654, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(30, 30);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -140,6 +153,7 @@ namespace _8So_WindowsForms
             // 
             // panelRadius4
             // 
+            this.panelRadius4.Controls.Add(this.button2);
             this.panelRadius4.Location = new System.Drawing.Point(3, 466);
             this.panelRadius4.Name = "panelRadius4";
             this.panelRadius4.Radius = 5;
@@ -148,6 +162,24 @@ namespace _8So_WindowsForms
             this.panelRadius4.Size = new System.Drawing.Size(154, 34);
             this.panelRadius4.TabIndex = 156;
             this.panelRadius4.TopLeft = new System.Drawing.Point(0, 0);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(1, 1);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(152, 32);
+            this.button2.TabIndex = 157;
+            this.button2.Text = "Tutorial";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel9
             // 
@@ -207,6 +239,7 @@ namespace _8So_WindowsForms
             // 
             // panelRadius14
             // 
+            this.panelRadius14.Controls.Add(this.btn5);
             this.panelRadius14.Location = new System.Drawing.Point(308, 308);
             this.panelRadius14.Name = "panelRadius14";
             this.panelRadius14.Radius = 50;
@@ -215,199 +248,6 @@ namespace _8So_WindowsForms
             this.panelRadius14.Size = new System.Drawing.Size(132, 132);
             this.panelRadius14.TabIndex = 148;
             this.panelRadius14.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius13
-            // 
-            this.panelRadius13.Location = new System.Drawing.Point(170, 308);
-            this.panelRadius13.Name = "panelRadius13";
-            this.panelRadius13.Radius = 50;
-            this.panelRadius13.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
-            this.panelRadius13.rSize = new System.Drawing.Size(131, 131);
-            this.panelRadius13.Size = new System.Drawing.Size(132, 132);
-            this.panelRadius13.TabIndex = 147;
-            this.panelRadius13.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius12
-            // 
-            this.panelRadius12.Location = new System.Drawing.Point(33, 308);
-            this.panelRadius12.Name = "panelRadius12";
-            this.panelRadius12.Radius = 50;
-            this.panelRadius12.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
-            this.panelRadius12.rSize = new System.Drawing.Size(131, 131);
-            this.panelRadius12.Size = new System.Drawing.Size(132, 132);
-            this.panelRadius12.TabIndex = 146;
-            this.panelRadius12.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius11
-            // 
-            this.panelRadius11.Location = new System.Drawing.Point(307, 172);
-            this.panelRadius11.Name = "panelRadius11";
-            this.panelRadius11.Radius = 50;
-            this.panelRadius11.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
-            this.panelRadius11.rSize = new System.Drawing.Size(131, 131);
-            this.panelRadius11.Size = new System.Drawing.Size(132, 132);
-            this.panelRadius11.TabIndex = 145;
-            this.panelRadius11.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius10
-            // 
-            this.panelRadius10.Location = new System.Drawing.Point(170, 171);
-            this.panelRadius10.Name = "panelRadius10";
-            this.panelRadius10.Radius = 50;
-            this.panelRadius10.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
-            this.panelRadius10.rSize = new System.Drawing.Size(131, 131);
-            this.panelRadius10.Size = new System.Drawing.Size(132, 132);
-            this.panelRadius10.TabIndex = 144;
-            this.panelRadius10.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius9
-            // 
-            this.panelRadius9.Location = new System.Drawing.Point(33, 171);
-            this.panelRadius9.Name = "panelRadius9";
-            this.panelRadius9.Radius = 50;
-            this.panelRadius9.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
-            this.panelRadius9.rSize = new System.Drawing.Size(131, 131);
-            this.panelRadius9.Size = new System.Drawing.Size(132, 132);
-            this.panelRadius9.TabIndex = 143;
-            this.panelRadius9.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius8
-            // 
-            this.panelRadius8.Location = new System.Drawing.Point(307, 35);
-            this.panelRadius8.Name = "panelRadius8";
-            this.panelRadius8.Radius = 50;
-            this.panelRadius8.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
-            this.panelRadius8.rSize = new System.Drawing.Size(131, 131);
-            this.panelRadius8.Size = new System.Drawing.Size(132, 132);
-            this.panelRadius8.TabIndex = 142;
-            this.panelRadius8.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius7
-            // 
-            this.panelRadius7.Location = new System.Drawing.Point(170, 35);
-            this.panelRadius7.Name = "panelRadius7";
-            this.panelRadius7.Radius = 50;
-            this.panelRadius7.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
-            this.panelRadius7.rSize = new System.Drawing.Size(131, 131);
-            this.panelRadius7.Size = new System.Drawing.Size(132, 132);
-            this.panelRadius7.TabIndex = 141;
-            this.panelRadius7.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius5
-            // 
-            this.panelRadius5.Location = new System.Drawing.Point(33, 35);
-            this.panelRadius5.Name = "panelRadius5";
-            this.panelRadius5.Radius = 50;
-            this.panelRadius5.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
-            this.panelRadius5.rSize = new System.Drawing.Size(131, 131);
-            this.panelRadius5.Size = new System.Drawing.Size(132, 132);
-            this.panelRadius5.TabIndex = 140;
-            this.panelRadius5.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius6
-            // 
-            this.panelRadius6.Location = new System.Drawing.Point(464, 252);
-            this.panelRadius6.Name = "panelRadius6";
-            this.panelRadius6.Radius = 5;
-            this.panelRadius6.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(133)))), ((int)(((byte)(133)))));
-            this.panelRadius6.rSize = new System.Drawing.Size(179, 151);
-            this.panelRadius6.Size = new System.Drawing.Size(180, 93);
-            this.panelRadius6.TabIndex = 139;
-            this.panelRadius6.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
-            this.panel2.Location = new System.Drawing.Point(30, 33);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(2, 410);
-            this.panel2.TabIndex = 133;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(844, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 30);
-            this.button1.TabIndex = 132;
-            this.button1.Text = "✖";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // panelRadius1
-            // 
-            this.panelRadius1.BackColor = System.Drawing.Color.White;
-            this.panelRadius1.Location = new System.Drawing.Point(464, 37);
-            this.panelRadius1.Name = "panelRadius1";
-            this.panelRadius1.Radius = 5;
-            this.panelRadius1.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(133)))), ((int)(((byte)(133)))));
-            this.panelRadius1.rSize = new System.Drawing.Size(181, 51);
-            this.panelRadius1.Size = new System.Drawing.Size(182, 52);
-            this.panelRadius1.TabIndex = 134;
-            this.panelRadius1.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius2
-            // 
-            this.panelRadius2.Location = new System.Drawing.Point(464, 102);
-            this.panelRadius2.Name = "panelRadius2";
-            this.panelRadius2.Radius = 5;
-            this.panelRadius2.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(104)))), ((int)(((byte)(68)))));
-            this.panelRadius2.rSize = new System.Drawing.Size(181, 51);
-            this.panelRadius2.Size = new System.Drawing.Size(182, 52);
-            this.panelRadius2.TabIndex = 135;
-            this.panelRadius2.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panelRadius3
-            // 
-            this.panelRadius3.Location = new System.Drawing.Point(465, 170);
-            this.panelRadius3.Name = "panelRadius3";
-            this.panelRadius3.Radius = 5;
-            this.panelRadius3.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(104)))), ((int)(((byte)(68)))));
-            this.panelRadius3.rSize = new System.Drawing.Size(181, 51);
-            this.panelRadius3.Size = new System.Drawing.Size(182, 52);
-            this.panelRadius3.TabIndex = 136;
-            this.panelRadius3.TopLeft = new System.Drawing.Point(0, 0);
-            // 
-            // panel10
-            // 
-            this.panel10.AutoScroll = true;
-            this.panel10.BackColor = System.Drawing.Color.White;
-            this.panel10.Location = new System.Drawing.Point(1, 1);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(206, 204);
-            this.panel10.TabIndex = 158;
-            // 
-            // pConterner
-            // 
-            this.pConterner.BackColor = System.Drawing.Color.Transparent;
-            this.pConterner.Location = new System.Drawing.Point(205, 504);
-            this.pConterner.Name = "pConterner";
-            this.pConterner.Size = new System.Drawing.Size(683, 114);
-            this.pConterner.TabIndex = 13;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(1, 1);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 32);
-            this.button2.TabIndex = 157;
-            this.button2.Text = "Tutorial";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btn5
             // 
@@ -421,6 +261,18 @@ namespace _8So_WindowsForms
             this.btn5.TabIndex = 25;
             this.btn5.TabStop = false;
             // 
+            // panelRadius13
+            // 
+            this.panelRadius13.Controls.Add(this.btn6);
+            this.panelRadius13.Location = new System.Drawing.Point(170, 308);
+            this.panelRadius13.Name = "panelRadius13";
+            this.panelRadius13.Radius = 50;
+            this.panelRadius13.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            this.panelRadius13.rSize = new System.Drawing.Size(131, 131);
+            this.panelRadius13.Size = new System.Drawing.Size(132, 132);
+            this.panelRadius13.TabIndex = 147;
+            this.panelRadius13.TopLeft = new System.Drawing.Point(0, 0);
+            // 
             // btn6
             // 
             this.btn6.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -432,6 +284,18 @@ namespace _8So_WindowsForms
             this.btn6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn6.TabIndex = 26;
             this.btn6.TabStop = false;
+            // 
+            // panelRadius12
+            // 
+            this.panelRadius12.Controls.Add(this.btn7);
+            this.panelRadius12.Location = new System.Drawing.Point(33, 308);
+            this.panelRadius12.Name = "panelRadius12";
+            this.panelRadius12.Radius = 50;
+            this.panelRadius12.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            this.panelRadius12.rSize = new System.Drawing.Size(131, 131);
+            this.panelRadius12.Size = new System.Drawing.Size(132, 132);
+            this.panelRadius12.TabIndex = 146;
+            this.panelRadius12.TopLeft = new System.Drawing.Point(0, 0);
             // 
             // btn7
             // 
@@ -445,6 +309,18 @@ namespace _8So_WindowsForms
             this.btn7.TabIndex = 27;
             this.btn7.TabStop = false;
             // 
+            // panelRadius11
+            // 
+            this.panelRadius11.Controls.Add(this.btn4);
+            this.panelRadius11.Location = new System.Drawing.Point(307, 172);
+            this.panelRadius11.Name = "panelRadius11";
+            this.panelRadius11.Radius = 50;
+            this.panelRadius11.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            this.panelRadius11.rSize = new System.Drawing.Size(131, 131);
+            this.panelRadius11.Size = new System.Drawing.Size(132, 132);
+            this.panelRadius11.TabIndex = 145;
+            this.panelRadius11.TopLeft = new System.Drawing.Point(0, 0);
+            // 
             // btn4
             // 
             this.btn4.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -456,6 +332,18 @@ namespace _8So_WindowsForms
             this.btn4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn4.TabIndex = 24;
             this.btn4.TabStop = false;
+            // 
+            // panelRadius10
+            // 
+            this.panelRadius10.Controls.Add(this.btn0);
+            this.panelRadius10.Location = new System.Drawing.Point(170, 171);
+            this.panelRadius10.Name = "panelRadius10";
+            this.panelRadius10.Radius = 50;
+            this.panelRadius10.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            this.panelRadius10.rSize = new System.Drawing.Size(131, 131);
+            this.panelRadius10.Size = new System.Drawing.Size(132, 132);
+            this.panelRadius10.TabIndex = 144;
+            this.panelRadius10.TopLeft = new System.Drawing.Point(0, 0);
             // 
             // btn0
             // 
@@ -469,6 +357,18 @@ namespace _8So_WindowsForms
             this.btn0.TabIndex = 29;
             this.btn0.TabStop = false;
             // 
+            // panelRadius9
+            // 
+            this.panelRadius9.Controls.Add(this.btn8);
+            this.panelRadius9.Location = new System.Drawing.Point(33, 171);
+            this.panelRadius9.Name = "panelRadius9";
+            this.panelRadius9.Radius = 50;
+            this.panelRadius9.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            this.panelRadius9.rSize = new System.Drawing.Size(131, 131);
+            this.panelRadius9.Size = new System.Drawing.Size(132, 132);
+            this.panelRadius9.TabIndex = 143;
+            this.panelRadius9.TopLeft = new System.Drawing.Point(0, 0);
+            // 
             // btn8
             // 
             this.btn8.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -480,6 +380,18 @@ namespace _8So_WindowsForms
             this.btn8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn8.TabIndex = 28;
             this.btn8.TabStop = false;
+            // 
+            // panelRadius8
+            // 
+            this.panelRadius8.Controls.Add(this.btn3);
+            this.panelRadius8.Location = new System.Drawing.Point(307, 35);
+            this.panelRadius8.Name = "panelRadius8";
+            this.panelRadius8.Radius = 50;
+            this.panelRadius8.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            this.panelRadius8.rSize = new System.Drawing.Size(131, 131);
+            this.panelRadius8.Size = new System.Drawing.Size(132, 132);
+            this.panelRadius8.TabIndex = 142;
+            this.panelRadius8.TopLeft = new System.Drawing.Point(0, 0);
             // 
             // btn3
             // 
@@ -493,6 +405,18 @@ namespace _8So_WindowsForms
             this.btn3.TabIndex = 23;
             this.btn3.TabStop = false;
             // 
+            // panelRadius7
+            // 
+            this.panelRadius7.Controls.Add(this.btn2);
+            this.panelRadius7.Location = new System.Drawing.Point(170, 35);
+            this.panelRadius7.Name = "panelRadius7";
+            this.panelRadius7.Radius = 50;
+            this.panelRadius7.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            this.panelRadius7.rSize = new System.Drawing.Size(131, 131);
+            this.panelRadius7.Size = new System.Drawing.Size(132, 132);
+            this.panelRadius7.TabIndex = 141;
+            this.panelRadius7.TopLeft = new System.Drawing.Point(0, 0);
+            // 
             // btn2
             // 
             this.btn2.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -504,6 +428,18 @@ namespace _8So_WindowsForms
             this.btn2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn2.TabIndex = 22;
             this.btn2.TabStop = false;
+            // 
+            // panelRadius5
+            // 
+            this.panelRadius5.Controls.Add(this.btn1);
+            this.panelRadius5.Location = new System.Drawing.Point(33, 35);
+            this.panelRadius5.Name = "panelRadius5";
+            this.panelRadius5.Radius = 50;
+            this.panelRadius5.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            this.panelRadius5.rSize = new System.Drawing.Size(131, 131);
+            this.panelRadius5.Size = new System.Drawing.Size(132, 132);
+            this.panelRadius5.TabIndex = 140;
+            this.panelRadius5.TopLeft = new System.Drawing.Point(0, 0);
             // 
             // btn1
             // 
@@ -517,13 +453,26 @@ namespace _8So_WindowsForms
             this.btn1.TabIndex = 21;
             this.btn1.TabStop = false;
             // 
+            // panelRadius6
+            // 
+            this.panelRadius6.Controls.Add(this.label2);
+            this.panelRadius6.Controls.Add(this.lbSoLanDiChuyen);
+            this.panelRadius6.Location = new System.Drawing.Point(452, 252);
+            this.panelRadius6.Name = "panelRadius6";
+            this.panelRadius6.Radius = 5;
+            this.panelRadius6.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(133)))), ((int)(((byte)(133)))));
+            this.panelRadius6.rSize = new System.Drawing.Size(191, 151);
+            this.panelRadius6.Size = new System.Drawing.Size(192, 152);
+            this.panelRadius6.TabIndex = 139;
+            this.panelRadius6.TopLeft = new System.Drawing.Point(0, 0);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(4, 8);
+            this.label2.Location = new System.Drawing.Point(10, 8);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(171, 25);
             this.label2.TabIndex = 15;
@@ -532,15 +481,35 @@ namespace _8So_WindowsForms
             // lbSoLanDiChuyen
             // 
             this.lbSoLanDiChuyen.BackColor = System.Drawing.Color.Transparent;
-            this.lbSoLanDiChuyen.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbSoLanDiChuyen.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lbSoLanDiChuyen.ForeColor = System.Drawing.Color.White;
-            this.lbSoLanDiChuyen.Location = new System.Drawing.Point(0, 0);
+            this.lbSoLanDiChuyen.Location = new System.Drawing.Point(1, 1);
             this.lbSoLanDiChuyen.Name = "lbSoLanDiChuyen";
-            this.lbSoLanDiChuyen.Size = new System.Drawing.Size(180, 93);
+            this.lbSoLanDiChuyen.Size = new System.Drawing.Size(190, 150);
             this.lbSoLanDiChuyen.TabIndex = 16;
             this.lbSoLanDiChuyen.Text = "0";
             this.lbSoLanDiChuyen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            this.panel2.Location = new System.Drawing.Point(30, 33);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(2, 410);
+            this.panel2.TabIndex = 133;
+            // 
+            // panelRadius1
+            // 
+            this.panelRadius1.BackColor = System.Drawing.Color.White;
+            this.panelRadius1.Controls.Add(this.btnChoiMoi);
+            this.panelRadius1.Location = new System.Drawing.Point(464, 37);
+            this.panelRadius1.Name = "panelRadius1";
+            this.panelRadius1.Radius = 5;
+            this.panelRadius1.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(133)))), ((int)(((byte)(133)))));
+            this.panelRadius1.rSize = new System.Drawing.Size(181, 51);
+            this.panelRadius1.Size = new System.Drawing.Size(182, 52);
+            this.panelRadius1.TabIndex = 134;
+            this.panelRadius1.TopLeft = new System.Drawing.Point(0, 0);
             // 
             // btnChoiMoi
             // 
@@ -561,6 +530,18 @@ namespace _8So_WindowsForms
             this.btnChoiMoi.UseVisualStyleBackColor = false;
             this.btnChoiMoi.Click += new System.EventHandler(this.ChoiMoi);
             // 
+            // panelRadius2
+            // 
+            this.panelRadius2.Controls.Add(this.btnBauDau);
+            this.panelRadius2.Location = new System.Drawing.Point(464, 102);
+            this.panelRadius2.Name = "panelRadius2";
+            this.panelRadius2.Radius = 5;
+            this.panelRadius2.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(104)))), ((int)(((byte)(68)))));
+            this.panelRadius2.rSize = new System.Drawing.Size(181, 51);
+            this.panelRadius2.Size = new System.Drawing.Size(182, 52);
+            this.panelRadius2.TabIndex = 135;
+            this.panelRadius2.TopLeft = new System.Drawing.Point(0, 0);
+            // 
             // btnBauDau
             // 
             this.btnBauDau.BackColor = System.Drawing.Color.Transparent;
@@ -578,6 +559,18 @@ namespace _8So_WindowsForms
             this.btnBauDau.Text = "Start";
             this.btnBauDau.UseVisualStyleBackColor = false;
             this.btnBauDau.Click += new System.EventHandler(this.btBauDau_Click);
+            // 
+            // panelRadius3
+            // 
+            this.panelRadius3.Controls.Add(this.btnDung);
+            this.panelRadius3.Location = new System.Drawing.Point(465, 170);
+            this.panelRadius3.Name = "panelRadius3";
+            this.panelRadius3.Radius = 5;
+            this.panelRadius3.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(104)))), ((int)(((byte)(68)))));
+            this.panelRadius3.rSize = new System.Drawing.Size(181, 51);
+            this.panelRadius3.Size = new System.Drawing.Size(182, 52);
+            this.panelRadius3.TabIndex = 136;
+            this.panelRadius3.TopLeft = new System.Drawing.Point(0, 0);
             // 
             // btnDung
             // 
@@ -597,14 +590,28 @@ namespace _8So_WindowsForms
             this.btnDung.UseVisualStyleBackColor = false;
             this.btnDung.Click += new System.EventHandler(this.btDung_Click);
             // 
+            // pConterner
+            // 
+            this.pConterner.BackColor = System.Drawing.Color.Transparent;
+            this.pConterner.Location = new System.Drawing.Point(0, 505);
+            this.pConterner.Name = "pConterner";
+            this.pConterner.Size = new System.Drawing.Size(683, 114);
+            this.pConterner.TabIndex = 13;
+            // 
+            // panel10
+            // 
+            this.panel10.Location = new System.Drawing.Point(494, 410);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(200, 100);
+            this.panel10.TabIndex = 158;
+            // 
             // fm8So
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(900, 622);
+            this.ClientSize = new System.Drawing.Size(684, 622);
             this.Controls.Add(this.pConterner);
-            this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
@@ -614,15 +621,30 @@ namespace _8So_WindowsForms
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelRadius4.ResumeLayout(false);
+            this.panelRadius14.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn5)).EndInit();
+            this.panelRadius13.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn6)).EndInit();
+            this.panelRadius12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn7)).EndInit();
+            this.panelRadius11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn4)).EndInit();
+            this.panelRadius10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn0)).EndInit();
+            this.panelRadius9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn8)).EndInit();
+            this.panelRadius8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn3)).EndInit();
+            this.panelRadius7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn2)).EndInit();
+            this.panelRadius5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn1)).EndInit();
+            this.panelRadius6.ResumeLayout(false);
+            this.panelRadius6.PerformLayout();
+            this.panelRadius1.ResumeLayout(false);
+            this.panelRadius2.ResumeLayout(false);
+            this.panelRadius3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -645,7 +667,6 @@ namespace _8So_WindowsForms
         private System.Windows.Forms.Button btnDung;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnBauDau;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
         private Resources.Class.PanelRadius panelRadius6;
         private Resources.Class.PanelRadius panelRadius5;
@@ -674,4 +695,3 @@ namespace _8So_WindowsForms
         private System.Windows.Forms.Panel panel10;
     }
 }
-

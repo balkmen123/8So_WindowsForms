@@ -188,9 +188,6 @@ namespace _8So_WindowsForms
             tb.Show();
         }
 
-        private void timer2_Tick(object sender, EventArgs e)
-        {
 
-        }
     }
 }
