@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.panelRadius2 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.panelRadius1 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -36,12 +37,23 @@
             this.panelRadius4 = new _8So_WindowsForms.Resources.Class.PanelRadius();
             this.btnBauDau = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panelRadius2 = new _8So_WindowsForms.Resources.Class.PanelRadius();
+            this.panelRadius2.SuspendLayout();
             this.panelRadius1.SuspendLayout();
             this.panelRadius5.SuspendLayout();
             this.panelRadius4.SuspendLayout();
-            this.panelRadius2.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panelRadius2
+            // 
+            this.panelRadius2.Controls.Add(this.panelRadius1);
+            this.panelRadius2.Location = new System.Drawing.Point(153, 187);
+            this.panelRadius2.Name = "panelRadius2";
+            this.panelRadius2.Radius = 8;
+            this.panelRadius2.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.panelRadius2.rSize = new System.Drawing.Size(341, 161);
+            this.panelRadius2.Size = new System.Drawing.Size(342, 162);
+            this.panelRadius2.TabIndex = 2;
+            this.panelRadius2.TopLeft = new System.Drawing.Point(0, 0);
             // 
             // panelRadius1
             // 
@@ -150,33 +162,21 @@
             this.panel1.Size = new System.Drawing.Size(341, 1);
             this.panel1.TabIndex = 3;
             // 
-            // panelRadius2
-            // 
-            this.panelRadius2.Controls.Add(this.panelRadius1);
-            this.panelRadius2.Location = new System.Drawing.Point(153, 203);
-            this.panelRadius2.Name = "panelRadius2";
-            this.panelRadius2.Radius = 8;
-            this.panelRadius2.rColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.panelRadius2.rSize = new System.Drawing.Size(341, 161);
-            this.panelRadius2.Size = new System.Drawing.Size(342, 162);
-            this.panelRadius2.TabIndex = 2;
-            this.panelRadius2.TopLeft = new System.Drawing.Point(0, 0);
-            // 
             // thongbao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(676, 539);
+            this.ClientSize = new System.Drawing.Size(677, 539);
             this.Controls.Add(this.panelRadius2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "thongbao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Messagebox";
+            this.panelRadius2.ResumeLayout(false);
             this.panelRadius1.ResumeLayout(false);
             this.panelRadius1.PerformLayout();
             this.panelRadius5.ResumeLayout(false);
             this.panelRadius4.ResumeLayout(false);
-            this.panelRadius2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

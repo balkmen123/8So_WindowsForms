@@ -63,16 +63,6 @@ namespace _8So_WindowsForms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _0 {
-            get {
-                object obj = ResourceManager.GetObject("0", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _1 {
             get {
                 object obj = ResourceManager.GetObject("1", resourceCulture);
@@ -173,6 +163,16 @@ namespace _8So_WindowsForms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconnS {
+            get {
+                object obj = ResourceManager.GetObject("iconnS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_clouds_100 {
             get {
                 object obj = ResourceManager.GetObject("icons8-clouds-100", resourceCulture);
@@ -253,6 +253,16 @@ namespace _8So_WindowsForms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_x_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-x-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_xbox_x_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-xbox-x-96", resourceCulture);
@@ -276,6 +286,16 @@ namespace _8So_WindowsForms.Properties {
         internal static System.Drawing.Bitmap icons8_xbox_x_962 {
             get {
                 object obj = ResourceManager.GetObject("icons8-xbox-x-962", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loding {
+            get {
+                object obj = ResourceManager.GetObject("loding", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

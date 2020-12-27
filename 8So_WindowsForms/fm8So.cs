@@ -110,7 +110,7 @@ namespace _8So_WindowsForms
                     {
                         if(Temp[i,j] == 0)
                         {
-                            string vitri_thaydoi = $"Bước{SoLanDiChuyen} :    {i}             {j}" ;
+                            string vitri_thaydoi = $"Bước {SoLanDiChuyen} :     {i}            {j}" ;
 
                             Label x = new Label();
                             x.Font= new Font("Segoe UI Semibold", 10, FontStyle.Bold);
